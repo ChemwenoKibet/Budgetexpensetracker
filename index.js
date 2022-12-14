@@ -15,3 +15,25 @@ if (localStorage.getItem('transactions') !== null) {
 } else {
   transactions = [];
 }
+
+// Add transactions
+function addTransaction(e){
+    e.preventDefault();
+
+    if(text.value.trim() === '' || amount.value.trim() === ''){
+        alert('please add a text and amount');
+    }else {
+        const transaction = {
+            id: generateID(),
+            text: text.value,
+            amount: +amount.value
+        };
+        transactions.push(transaction);
+        addTransactionDOM(transaction);
+        updateValues()
+        updateLocalStorage()
+
+        text.value = ''
+        amount.value = ''
+    }
+}
