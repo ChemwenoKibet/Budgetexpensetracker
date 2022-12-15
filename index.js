@@ -43,4 +43,22 @@ function generateID(){
     return Math.floor(Math.random() * 100000000);
 }
 
+//adding transactions to DOM list
+function addTransactionDOM(transaction){
+    //get sign
+    const sign = transaction.amount < 0 ? '-' : '+';
+
+    const item = document.createElement('li');
+
+    //add class based on value
+    item.classList.add(transaction.amount < 0 ? 'minus' : 'plus');
+
+    item.innerHTML = `
+    
+        ${transaction.text} <span>${sign}${Math.abs(transaction.amount)}</span>
+        <button class="delete-btn" onclick="removeTransaction(${transaction.id})">x</button>
+        `;
+
+        list.appendChild(item);
+}
 
