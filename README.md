@@ -6,7 +6,9 @@ This expense tracker application is a tool that helps users manage their persona
 ## Features
 Some features of this budget and expense tracker include:
 1. The ability to add and categorize expenses and assign them to specific categories (such as groceries, rent, or entertainment).
-2. The ability to track income and expenses.
+2. The ability to track income.
+3. The ability to track expenses.
+4. Calculate the difference between the amount of income and expenses.
 
 ## Sources
 
