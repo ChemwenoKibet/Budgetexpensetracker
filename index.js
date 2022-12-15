@@ -95,3 +95,13 @@ function updateLocalStorage(){
     localStorage.setItem('transactions', JSON.stringify(transactions));
 }
 
+//init app
+function init() {
+    list.innerHTML = '';
+
+    transactions.forEach(addTransactionDOM);
+    updateValues()
+}
+
+init();
+form.addEventListener('submit', addTransaction);
