@@ -82,3 +82,16 @@ function updateValues(){
     money_minus.innerText = `$${expense}`;    
 }    
 
+// remove transaction by ID
+function removeTransaction(id){
+    transactions = transactions.filter(transaction => transaction.id !== id)
+
+    updateLocalStorage();
+    Init();
+}
+
+//update local storage transactions
+function updateLocalStorage(){
+    localStorage.setItem('transactions', JSON.stringify(transactions));
+}
+
