@@ -1,0 +1,23 @@
+﻿Project Owner: Ian Chemweno
+Project Name: Budget & Expense Tracker
+
+Problem Statement
+
+Over the years as everyone gets older and starts to make their own money and have different responsibilities, the need to track their spending emerges and becomes even greater and more important.
+
+Everyone regardless of the industry they work in need to track their expenses either on a daily or monthly basis
+
+Solution
+
+Creating an online application that allows users to track their expenses at the comfort of their homes or wherever they are.
+
+MVP
+1. Track income
+2. Track expenses
+3. Categorize expenses and income
+
+API URL
+This application uses a local storage API that works on any browser.
+
+GitHub Link
+https://github.com/ChemwenoKibet/Budgetexpensetracker
