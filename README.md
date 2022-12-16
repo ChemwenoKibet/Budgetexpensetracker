@@ -10,6 +10,11 @@ Some features of this budget and expense tracker include:
 3. The ability to track expenses.
 4. Calculate the difference between the amount of income and expenses.
 
+
+## Installation and use
+Once you clone the repository to your laptop, open using vsCode and run using live server to run the code on the browser and use the application. 
+
+
 ## Sources
 
 All content in this project has been authored by Ian Chemweno. 
