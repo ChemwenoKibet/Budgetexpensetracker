@@ -6,6 +6,27 @@ const form = document.getElementById('form')
 const text = document.getElementById('text')
 const amount = document.getElementById('amount')
 
+// JavaScript to toggle the display of the login and signup forms
+const loginToggle = document.getElementById("login-toggle");
+const signupToggle = document.getElementById("signup-toggle");
+const loginForm = document.getElementById("login-form");
+const signupForm = document.getElementById("signup-form");
+
+loginToggle.addEventListener("click", () => {
+  signupForm.style.display = "none";
+  loginForm.style.display = "block";
+});
+
+signupToggle.addEventListener("click", () => {
+  loginForm.style.display = "none";
+  signupForm.style.display = "block";
+});
+
+
+
+
+
+
 const localStorageTransactions = JSON.parse(
     localStorage.getItem('transactions')
 );
