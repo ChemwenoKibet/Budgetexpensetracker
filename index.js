@@ -23,10 +23,6 @@ signupToggle.addEventListener("click", () => {
 });
 
 
-
-
-
-
 const localStorageTransactions = JSON.parse(
     localStorage.getItem('transactions')
 );
