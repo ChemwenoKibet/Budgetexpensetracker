@@ -24,6 +24,9 @@ Contact information will be provided below:
 
 Email: Chemwenokibet11@gmail.com
 
+## License
+licenses/AGPL-3.0
+
 
 
 
