@@ -14,6 +14,9 @@ Some features of this budget and expense tracker include:
 ## Installation and use
 Once you clone the repository to your laptop, open using vsCode and run using live server to run the code on the browser and use the application. 
 
+## Deployment GitHub Link
+https://github.com/ChemwenoKibet/Budgetexpensetracker
+
 
 ## Sources
 
